@@ -17,7 +17,7 @@ printName ();
  * - Age = current year - birth
  */
 
-function printAge(birthYear){
+function printAge(birthYear) {
 let age = 2022 - birthYear;
 console.log(age)
 }
@@ -38,23 +38,23 @@ function printHello(name, language)
 {
 
     if (language === "en"){
-    return ("Hello",name);
+    console.log ("Hello",name);
     }
     
     else if (language === "es"){
-    return ("Hola",name);
+    console.log ("Hola",name);
     }
 
     else if (language ==="fr"){
-    return ("Bonjour", name);
+    console.log  ("Bonjour", name);
     }
     
     else if (language ==="tr"){
-     return ("Marhaba",name);
+    console.log  ("Marhaba",name);
     }
-    console.log (printHello("Abdulmohsen","en"));
 
 }
+(printHello("Abdulmohsen","en"));
 
 
 
